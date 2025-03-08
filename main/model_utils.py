@@ -3,10 +3,13 @@ Model utils
 """
 
 import time
+import tensorflow as tf
 from sklearn.metrics import ConfusionMatrixDisplay
-from tensorflow.keras.metrics import Precision, Recall, AUC, F1Score
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from tf.keras.metrics import Precision, Recall, AUC, F1Score
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+
+import keras as ks
 
 # Auxiliary class used for storing the model performance results (obtained values)
 class CustomMetricsCallback(tf.keras.callbacks.Callback):
