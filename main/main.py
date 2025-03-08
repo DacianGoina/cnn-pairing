@@ -1,17 +1,9 @@
-import matplotlib.pyplot as plt
-import numpy as np
 
-# Sample data
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
 
-# Create the plot
-plt.plot(x, y, label='Sine Wave', color='blue')
-plt.title('Simple Line Plot')
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.legend()
-plt.grid(True)
+print("Main")
 
-# Show the plot
-plt.show()
+from experimental_setup.minimal_plot_utils import minimal_res_plot
+minimal_res_plot("exported_data/FASHION-analytic-results.json")
+
+
+

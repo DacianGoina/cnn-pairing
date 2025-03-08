@@ -16,7 +16,6 @@ def dict_int64_keys_to_int_keys(dict_obj):
   return dict_obj_new
 
 def read_json_file(file_path):
-
   res = None
   # Open and read the file
   with open(file_path, 'r') as file:
