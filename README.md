@@ -23,13 +23,13 @@ To reduce the image size using the Cantor pairing function, the key idea refers 
 
 ## Example of usage and execution time comparison
 
-
+### Transformation example
 Fig. 3 shows the transformation result after applying the proposed image resizing method on a image (digit sample) from MNIST Digits dataset. 
 ![Fig. 3: Proposed method - transformation result](readme-imgs/original-resized-comp.png) 
 
 **Fig. 3: Proposed method - transformation result**
 
-
+### Execution times comparison
 Fig. 4 shows a comparison between the execution times of the proposed method and Bicubic Interpolation, respectively Nearest Neighbor method. The values were obtained **resizing all 70,000 images of size 28 x 28 from MNIST Digits dataset to size 28 x 14.**** The experiment was executed **10 times and the presented results are the averaged obtained values in seconds.** 
 ![Fig. 4: Mean / std. execution time of methods over 10 runs](readme-imgs/exec-times-comparison.png) 
 
