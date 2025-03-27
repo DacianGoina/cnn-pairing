@@ -5,6 +5,8 @@
 The **Cantor Pairing function** (Fig. 1) is a bijective transformation that maps two integer values into. Being a bijective function it provides a lossless and reversable transformation.
 
 ![Fig. 1: Cantor Pairing function](readme-imgs/pairing-function.png)
+**Fig. 1: Cantor Pairing function**
+
 
 ## Applications in Image Resizing and Image Classification Tasks
 
@@ -15,14 +17,16 @@ To reduce the image size using the Cantor pairing function, the key idea refers 
 	- the most simple use case is to combine all the features (pixels) to halve the image size
 	
 ![Fig. 2: Data transformation schema](readme-imgs/data-transformation-schema-11.png)
+**Fig. 2: Data transformation schema**
 
 ## Example of usage and execution time comparison
 
 
 Fig. 3 shows the transformation result after applying the proposed image resizing method on a image (digit sample) from MNIST Digits dataset. 
 ![Fig. 3: Proposed method - transformation result](readme-imgs/original-resized-comp.png)
-
+**Fig. 3: Proposed method - transformation result**
 
 
 Fig. 4 shows a comparison between the execution times of the proposed method and Bicubic Interpolation, respectively Nearest Neighbor method. The values were obtained **resizing all 70,000 images of size 28 x 28 from MNIST Digits dataset to size 28 x 14.**** The experiment was executed **10 times and the presented results are the averaged obtained values in seconds.** 
 ![Fig. 4: Mean / std. execution time of methods over 10 runs](readme-imgs/exec-times-comparison.png)
+**Fig. 4: Mean / std. execution time of methods over 10 runs**
