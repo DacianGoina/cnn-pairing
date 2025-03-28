@@ -14,10 +14,10 @@ The **Cantor Pairing function** (Fig. 1) is a bijective transformation that maps
 To reduce the image size using the Cantor pairing function, the key idea refers to combining two pixels (2 features) into one using the pairing function. Fig. 2 shows the image transformation schema; the parameters:
 1. **a m x n (m times n) matrix P** : it represents a grayscale image
 2. **paired features indexes [(i<sub>1</sub>, i<sub>2</sub>), (i<sub>3</sub>, i<sub>4</sub>), ..., (i<sub>k-1</sub>, i<sub>k</sub>)]** : the index of features used in the pairing (combination); all features can be paired (two by two) or just few of them (and the unpaired features remain with the values from the original image)
-3. **new image dimension u, v** : these values are correlated to the number of features used in the pairing (linked to **k** value); u, v values must be selected such that their product (u \* v) is equal to the number of features obtained after using pairing 
+3. **new image dimension u, v** : these values are correlated to the number of features used in the pairing (linked to **k** value); the number of features used for the pairing must be selected such that in the obtained image, the number of pixels (features) to be a value that can written as a product of two integer values (i.e., u and v, which are used for width and height of the new image)
 	- the most simple use case is to combine all the features (pixels) to halve the image size
 	
-![Fig. 2: Data transformation schema](readme-imgs/data-transformation-schema-11.png) 
+![Fig. 2: Data transformation schema](readme-imgs/data-transformation-schema-14.png) 
 
 **Fig. 2: Data transformation schema**
 
