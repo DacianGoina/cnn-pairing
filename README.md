@@ -17,7 +17,7 @@ To reduce the image size using the Cantor pairing function, the key idea refers 
 3. **new image dimension u, v** : these values are correlated to the number of features used in the pairing (linked to **k** value); the number of features used for the pairing must be selected such that in the obtained image, the number of pixels (features) to be a value that can written as a product of two integer values (i.e., u and v, which are used for width and height of the new image)
 	- the most simple use case is to combine all the features (pixels) to halve the image size
 	
-![Fig. 2: Data transformation schema](readme-imgs/data-transformation-schema-14.png) 
+![Fig. 2: Data transformation schema](readme-imgs/data-transformation-schema-18.png) 
 
 **Fig. 2: Data transformation schema**
 
