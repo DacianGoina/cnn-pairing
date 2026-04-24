@@ -2,7 +2,7 @@
 
 ## The Cantor Pairing function
 
-The **Cantor Pairing function** (Fig. 1) is a bijective transformation that maps two integer values into. Being a bijective function it provides a lossless and reversable transformation.
+The **Cantor Pairing function** (Fig. 1) is a bijective transformation that maps two integer values into one. Being a bijective function it provides a lossless and reversable transformation.
 
 ![Fig. 1: Cantor Pairing function](readme-imgs/pairing-function.png) 
 
